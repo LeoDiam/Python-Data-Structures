@@ -10,4 +10,4 @@ for line in fh:
         count = float(count + 1)
         average += float(line[line.find('0'):])
 average = float(average / count)
-print('Average spam confidence:',average)
+print('Average spam confidence:', average)
